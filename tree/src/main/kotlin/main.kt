@@ -23,7 +23,7 @@ class BinaryTree {
         if (current == null) {
             return false
         }
-        if (current == null) {
+        if (value == current.value) {
             return true
         }
         return if (value < current.value) {
